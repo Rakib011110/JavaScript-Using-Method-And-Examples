@@ -24,9 +24,8 @@
 
 ## Documentation
 
-- [introduced-to-js-17](JavaScript Using Method) 
-- [introduced-to-js-17](#JavaScript Using Method)
-- [Firebase Using Method And Example](/Firebase)
+- [introduced-to-js-17](JavaScript-Using-Method)
+- [Firebase Using Method And Example](introduced-to-js-17)
 - [Heroku Using Method And Example](/Heroku)
 - [JavaScript Using Method And Example](/JavaScript)
 - [MongoDB Using Method And Example](/MongoDB)
