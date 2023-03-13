@@ -47,7 +47,7 @@
 ## 
 
 ## All 
-- [CLICK ME FOR ALL MODULE QUESTIONS & ANS](https://github.com/Rakib011110/javaScript-documents/blob/main/README.md#Javascript-Problem-Solved) 
+- [CLICK ME FOR ALL MODULE QUESTIONS & ANS](https://github.com/Rakib011110/javaScript-documents) 
 
 
 ## 
