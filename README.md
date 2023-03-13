@@ -45,7 +45,137 @@
 - [all-about-browsers-42](https://github.com/Rakib011110/all-about-browsers-42/blob/main/README.md) 
 
 
-## All Questions 
+## All 
+- [CLICK ME FOR ALL MODULE QUESTIONS & ANS](https://github.com/Rakib011110/javaScript-documents/blob/main/README.md#Javascript-Problem-Solved) 
+
+
+## 
+
+  
+<h2> Iterview Qestions</h2>  
+<details>
+<summary>
+  <h3>javascript Interview Questions (Click Me)</h3>
+</summary>
+<br >
+  
+ ```css
+//Basic knowledge
+1. how does internet work?
+
+//ES6 Interview Questions?
+
+// Milestone 6: Intermediate JavaScript, Api
+//module: 
+2. what is DOM?
+3. What are the different ways to get an element from DOM ?
+4. What's the different between an Event Handler and an Event Listener ?
+5. what does "event bubbling" mean in JavaScript?
+6. Can you explain the different types of events available in javaScript?
+7. what's the difference bettween event.preventDefault() and event.stopPropagation()?
+
+//module:  
+8. what's the diffrence between map,foreach, filter?
+9. what's the diffrence between filter & find?
+10. what's the diffrence for of and for in?
+11. how do you empty an array?
+12. Difference between class and object?
+
+//module:  
+13. what is an api?
+Ans: i. Api  stands for Application Programming Interface.
+ii. An API acts like a link that allows two applications to talk to each other.
+iii. API is the part of the server that receives requests and sends responses
+14. GET Vs POST ?
+15. what are the HTTP methods supported by RESt?
+16. Can you use GET request instead of PUT to create a resource?
+17. what is JSON?
+18. What are CRUD operations?
+
+//module: 
+মাইলস্টোন ৬ টেকএওয়ে
+এই মাইলস্টোন থেকে তুমি যদি আটটা জিনিস শিখতে চাও তাহলে নিচের এই আটটি জিনিস আরেকবার ভালো করে দেখে নাও-
+19. fetch বা async await ইউজ করে API থেকে কিভাবে ডাটা লোড করতে হয়। ডাটা অনেক সময় অনেকভাবে থাকে। সেই ডাটা কোনটা কখন array কখন অবজেক্ট এর ভিতরে আছে। সেটা বুঝে সেই অনুসারে ডাটা দেখানোর সিস্টেম
+20. arrow ফাংশন কিভাবে ইউজ করা হয়
+21. template string এ ডাইনামিকভাবে কিভাবে ডাটা যোগ করতে হয়
+22. map, forEach, filter, find এইগুলা কখন কোনটা ব্যবহার করতে হয়, এদের মধ্যে পার্থক্য কি
+23. let, const, var এদের মধ্যে ডিফারেন্স কি, কোন কোনটা ইউজ করতে হয়।
+24. কোনটা দিয়ে array এর মধ্যে লুপ করতে হয়, কোনটা দিয়ে অবজেক্ট এর মধ্যে লুপ করতে হয়
+25. spread কিভাবে ইউজ করা হয়, স্প্রেড অপারেটর দিয়ে কিভাবে array কপি করে ফেলে।
+26. ES6 এর মধ্যে কিভাবে অবজেক্ট বা array এর  destructure করে সেটা থেকে ভেরিয়েবল ডিক্লেয়ার করতে হয়।
+.
+Milestone : 6 এই মাইলস্টোন থেকে তুমি যদি আরো চারটা জিনিস এ খেয়াল রাখতে চাও তাহলে সেগুলো হবে- 
+27. GET আর POST এর মধ্যে পার্থক্য কি ?
+28. class আর অবজেক্ট কি জিনিস
+29. bind, call, apply এর পার্থক্য কি ?
+30. জাভাস্ক্রিপ্ট এর this সম্পর্কে ধারণা
+
+// Milestone 7: Explore Browser & Debug
+//module:  
+31. what is internet?
+ans:i. The internet, sometimes called simply the net is a wold wide system of computer networkd
+ii. a net work of networks in which user at any one computer can, if they have permission, get information from any other computer
+iii. and sometimes talk directly to users at other computers.
+32. What is IP address?
+Ans: An IP address is a unique address that identifies a device on the internet or a local network.
+33. What is HTTP?
+Ans: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+34. What is an SSL certificate?
+35. What is diffrence HTTP and HTTPS and HTTP version 4 ?
+36. What is V8 Engine?
+37. Asynchronous vs Synchronous and promise?
+38. How to make Asynchronous JavaScript?
+Ans: 3 way to make JavaScript asynchronous, we can to use
+i. Callback functions (setTImeout, etc)
+ii. Promises (fetch)
+iii. Async/ await
+39. What is single-threaded?
+Ans: JavaScript is a single- threaded and synchronus language. (কিন্তু code Browser চলে আসে তখন সে asynchronous)
+40. What do you mean by Synchronous?
+41. What do you mean by asynchronous?
+42. What is Promise?
+43. what is the difference setInterval and clearInterval?
+44. what the heck is the event loop anyway? philip robets
+45. How does browser runs JavaScript?
+46. How does Browser works?
+47. Tell me something about JS engine v8 internal mechanism?
+48. What is rerender in Browser?
+49. What is event loop in JavaScript?
+50. if javascript is single threaded, how does it handle asynchronous call?
+51. What is SSL?
+52. What is Regular Expression?
+
+//module:  
+53. What is the defference between an alert box and a confirmation box?
+54. What are javaScript Cookies?
+55. Difference between local storage and sesseion storage?
+56. what should you use? cookie or local storage or sesseion storage?
+57. Tell me 2 differences between DOM vs BOM?
+58. Can you discuss the types of broweserAPI?
+59. what is javaScript Heap? (javaScript memory location কোথাই করে?)
+Ans: কোন object/ array এর refarence টাকে কিছু সময়ের জন্য stored করে রাখে। সেটাই হল Heeap| javaScript এ memory location Heap এ করে।
+60. what is javaScript stack?
+Ans: 
+	
+//module:  	(interview important)
+61. what are the differences between double equal (==) vs triple equal (===)?
+Ans:i. == check the value, and === check the value and type.  এটাকে type coercion বলে বা type conversion বলে।
+ii.  === check the value and type . == দুইটা যদি same type এর হই তাহলে সরাসরি value টাকে check করবে. আর diffrent type এর হলে type টাকে convert করে check করে। এটাকে type coercion বলে বা type conversion বলে।
+62. What is Hoisting in javaScript?
+Ans:i. variable declear var দিয়ে করলে উপরে নিয়া যায়। function এর expresion লিখলে শুধু ওইটা নেই body টাকে নেই না। সেই জন্য var use না করে let, const use করতে হবে।
+ii. Hoisting is javaScript default behavior of moving all declarations to the top of the current scope. only function delclarations are hoisted in javascript, function expressions are not hoisted. javascript only hoist declarations, not initializations.
+63. Tell the difference Between Primitive and Non-Primitive Data types in javaScript?
+64. What are the Truthy and Falsy Values? give me some examples.
+65. What is the difference between null and undefined? (important)
+66. What is scope in javaScript?
+67. Define Block scope and global scope?
+68. How to use the javaScript callback function?
+69. Explain closure in JavaScript?
+70. Explain passed by value and passed by reference?
+		
+  
+ ```
+</details>
 
 
 
@@ -441,10 +571,6 @@
 ​
 42
 [![Facebook Badge](https://www.facebook.com/ariyan.rakib890/)
-
- [![Linkedin Badge]()
- [![Twitter Badge]()
- [![Mail Badge]()
 
 
 44
