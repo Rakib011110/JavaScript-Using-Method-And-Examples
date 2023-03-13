@@ -45,10 +45,14 @@
 - [all-about-browsers-42](https://github.com/Rakib011110/all-about-browsers-42/blob/main/README.md) 
 
 
+## All Questions 
 
 
 
-  ### Table
+
+
+
+  ## Table
 <div class="overflow-x-auto">
   <table class="table w-full">
     <!-- head -->
@@ -437,7 +441,8 @@
 ​
 42
 [![Facebook Badge](https://www.facebook.com/ariyan.rakib890/)
- [![Linkedin Badge](]()
+
+ [![Linkedin Badge]()
  [![Twitter Badge]()
  [![Mail Badge]()
 
