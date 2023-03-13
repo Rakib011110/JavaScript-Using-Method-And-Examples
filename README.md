@@ -12,7 +12,7 @@
 </summary>
 <br >
   
-- এই repository  প্রত্যেক js ফ্রন্টএন্ড-ব্যাকএন্ড বিকাশকারীকে সাহায্য করবে এবং নতুনদের জন্য একটু  বেশি সহায়ক। নতুনদের কথা চিন্তা করেই এই repository  আবির্ভাব।
+- এই repository  প্রত্যেক js ফ্রন্টএন্ড-ব্যাকএন্ড Developer দের কিছুটা সহযোগিতা করতে পারে । 
 
 </details> 
 
@@ -20,6 +20,7 @@
 ## Upgrading
 
 - Everything will be upgraded over time. if you feel there is a problem then share it with me and I will implement it.
+- মডিউল অনুসারে এই রিপোটি আপডেট হতে থাকবে এবং এই রিপোতে যদি কোন ভূল থাকে অবশ্যই আমার সাথে শেয়ার করতে পারেন ।  
 
 
 ## Documentation for js
@@ -43,7 +44,7 @@
 <h4>about browsers</h4> 
 
 - [all-about-browsers-42](https://github.com/Rakib011110/all-about-browsers-42/blob/main/README.md) 
-
+## 
 
 ## All 
 - [CLICK ME FOR ALL MODULE QUESTIONS & ANS](https://github.com/Rakib011110/javaScript-documents/blob/main/README.md#Javascript-Problem-Solved) 
@@ -177,6 +178,7 @@ ii. Hoisting is javaScript default behavior of moving all declarations to the to
  ```
 </details>
 
+## 
 
 
 
