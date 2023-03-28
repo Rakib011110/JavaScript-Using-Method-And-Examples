@@ -567,7 +567,8 @@ ii. Hoisting is javaScript default behavior of moving all declarations to the to
 ## 
 
 # REACT.JS 
- - COMING SOON.........😉  
+- [react-core-concept-47](https://github.com/Rakib011110/react-core-concepts-47) 
+- [How to React-work-49](https://github.com/Rakib011110/react-core-concepts-how-to-react-work-49)
 
 ##
 
