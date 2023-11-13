@@ -140,7 +140,8 @@ i. Callback functions (setTImeout, etc)
 ii. Promises (fetch)
 iii. Async/ await
 39. What is single-threaded?
-Ans: JavaScript is a single- threaded and synchronus language. (কিন্তু code Browser চলে আসে তখন সে asynchronous)
+Ans: JavaScript is a single- threaded and synchronus language. (কিন্তু code Browser চলে আসে তখন সে asynchronous) 
+
 40. What do you mean by Synchronous?
 41. What do you mean by asynchronous?
 42. What is Promise?
@@ -381,6 +382,7 @@ The **V8 Engine** compiles JavaScript code to machine code for faster execution.
 **49. What is the event loop in JavaScript?**
 
 The **event loop** is a mechanism that allows asynchronous JavaScript code to execute in a non-blocking way. It continuously checks the message queue for tasks, executes them, and goes back to checking for more tasks.
+--------------------------------
 
 **50. If JavaScript is single-threaded, how does it handle asynchronous calls?**
 
@@ -440,6 +442,7 @@ Browser APIs include:
 **59. What is JavaScript Heap?**
 
 **JavaScript Heap** is a memory location where JavaScript stores references to objects or arrays for a certain period. It holds the data that is not immediately needed but may be used later.
+--------------------------------
 
 **60. What is JavaScript Stack?**
 
