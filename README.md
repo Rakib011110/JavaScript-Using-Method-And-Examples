@@ -198,6 +198,7 @@ There are various ways to get an element from the DOM:
 - `querySelectorAll`: Gets all elements that match a CSS selector.
 
 **4. What's the difference between an Event Handler and an Event Listener?**
+
 An event handler is a function that handles a specific type of event. It can be an attribute in HTML or a property in JavaScript. An event listener, on the other hand, is a more flexible way to handle events. It is set up using the `addEventListener` method in JavaScript and allows multiple functions to be executed for a particular event.
 
 **5. What does "event bubbling" mean in JavaScript?**
@@ -291,6 +292,209 @@ No, it's not recommended. The standard practice is to use **POST** to create a r
 - **Update**: Modify existing data.
 - **Delete**: Remove data.
 
+----------------------------
+### Milestone : Explore Browser & Debug  
+
+**31. What is the internet?**
+
+The **internet** is a big network of connected computers all around the world. It allows people to share information and communicate with each other.
+
+**32. What is an IP address?**
+An **IP address** is like a home address for your computer on the internet. It's a unique set of numbers that identifies your device and allows it to communicate with other devices on the internet.
+
+**33. What is HTTP?**
+
+**HTTP** stands for Hypertext Transfer Protocol. It's the set of rules for transferring files, like text, images, and videos, on the internet. It's the foundation of any data exchange on the Web.
+
+**34. What is an SSL certificate?**
+
+An **SSL certificate** is like a digital passport for a website. It helps to keep the information exchanged between a user's browser and the website secure. It's especially important for websites that handle sensitive information like login credentials or payment details.
+
+**35. What is the difference between HTTP and HTTPS and HTTP version 4?**
+
+- **HTTP** is the standard protocol for transferring data on the web.
+  
+- **HTTPS** is a secure version of HTTP. It encrypts the data being transferred, adding an extra layer of security.
+  
+- There isn't a specific "HTTP version 4." The latest major version of HTTP is HTTP/2, which is designed to be faster and more efficient than its predecessors.
+
+**36. What is the V8 Engine?**
+
+The **V8 Engine** is a JavaScript engine developed by Google. It's used in web browsers like Chrome to execute JavaScript code quickly and efficiently.
+
+**37. Asynchronous vs Synchronous and promise?**
+
+- **Synchronous**: Things happen one after another. You wait for one thing to finish before starting the next.
+  
+- **Asynchronous**: Things can happen independently. You don't have to wait; you can move on to the next thing.
+
+- **Promise**: It's like a promise to do something once a task is completed. It helps manage asynchronous operations in a more organized way.
+
+**38. How to make Asynchronous JavaScript?**
+
+You can make JavaScript asynchronous using techniques like callbacks, promises, and async/await. These help manage the flow of your code when dealing with operations that take time, like fetching data from a server.
+
+**39. What is single-threaded?**
+
+**Single-threaded** means that JavaScript processes one task at a time. It goes through one instruction after another, which makes it easier to understand but may lead to performance issues for tasks that take a long time. 
+
+
+
+----------------- 
+**40. What do you mean by Synchronous?**
+
+**Synchronous** means things happen one after another in a sequential order. Each task must finish before the next one starts.
+
+**41. What do you mean by Asynchronous?**
+
+**Asynchronous** means things can happen independently. You don't have to wait for one task to finish before starting the next one.
+
+**42. What is Promise?**
+
+A **Promise** is a way to handle asynchronous operations in JavaScript. It represents a value that might be available now, or in the future, or never. It helps manage the flow of asynchronous code more easily.
+
+**43. What is the difference between setInterval and clearInterval?**
+
+- **setInterval**: It's a function used to repeatedly execute a function or code snippet at a specified interval.
+
+- **clearInterval**: It's a function used to stop the execution of code that was set up using `setInterval`.
+
+**44. What the heck is the event loop anyway? (Philip Roberts)**
+
+The **event loop** is a concept in JavaScript that handles asynchronous operations. It continuously checks the message queue for new tasks, executes them one by one, and repeats the process. Philip Roberts has a great talk explaining this concept in detail.
+
+**45. How does the browser run JavaScript?**
+
+The browser runs JavaScript using a JavaScript engine (like V8 in Chrome). When a web page is loaded, the browser parses and interprets the JavaScript code, executing it line by line.
+
+**46. How does the browser work?**
+
+The browser retrieves and displays web content. It interprets HTML, CSS, and JavaScript, then renders them to show the web page. It also manages things like user input, cookies, and network requests.
+
+**47. Tell me something about JS engine V8 internal mechanism?**
+
+The **V8 Engine** compiles JavaScript code to machine code for faster execution. It consists of two main components: the memory heap (for storing variables) and the call stack (for keeping track of function calls).
+
+**48. What is rerender in the browser?**
+**Rerender** refers to the process of updating the displayed content on a webpage. When there's a change in data or state, the browser re-renders the affected part of the page to reflect the updated information.
+
+**49. What is the event loop in JavaScript?**
+
+The **event loop** is a mechanism that allows asynchronous JavaScript code to execute in a non-blocking way. It continuously checks the message queue for tasks, executes them, and goes back to checking for more tasks.
+
+**50. If JavaScript is single-threaded, how does it handle asynchronous calls?**
+
+JavaScript uses concepts like callbacks, promises, and async/await to handle asynchronous calls. These mechanisms allow the program to continue running other tasks while waiting for asynchronous operations to complete.
+
+**51. What is SSL?**
+
+**SSL** stands for Secure Sockets Layer. It's a protocol that ensures that the data exchanged between a user's browser and a website remains encrypted and secure.
+
+**52. What is Regular Expression?**
+
+A **Regular Expression** is a sequence of characters that forms a search pattern. It's often used for string matching, searching, and manipulation based on a defined pattern.
+-------------- 
+
+**53. What is the difference between an alert box and a confirmation box?**
+
+- **Alert Box**: It displays a message to the user with an OK button. It's mainly used for informational purposes.
+  
+- **Confirmation Box**: It asks the user to confirm or cancel an action. It contains OK and Cancel buttons, and it's often used for user input.
+
+**54. What are JavaScript Cookies?**
+
+**JavaScript Cookies** are small pieces of data stored on the user's browser. They are often used to remember information about the user, such as login credentials or user preferences.
+
+**55. Difference between local storage and session storage?**
+
+- **Local Storage**: Data stored in local storage persists even when the browser is closed and reopened. It has a longer lifespan.
+
+- **Session Storage**: Data stored in session storage only lasts for the duration of the page session. It is cleared when the browser or tab is closed.
+
+**56. What should you use? Cookie or Local Storage or Session Storage?**
+It depends on the use case:
+
+- Use **Cookies** for small amounts of data that need to be sent back and forth with each request.
+  
+- Use **Local Storage** for larger amounts of data that need to persist across browser sessions.
+  
+- Use **Session Storage** for temporary data that should be cleared when the page session ends.
+
+**57. Tell me 2 differences between DOM vs BOM?**
+
+- **DOM (Document Object Model)**: It represents the structure of a document as a tree of objects. It deals with the document's content.
+
+- **BOM (Browser Object Model)**: It represents the browser as a whole and provides objects like `window` and `navigator`. It deals with the browser's features and behavior.
+
+**58. Can you discuss the types of browser API?**
+
+Browser APIs include:
+- **DOM API**: Manipulates the structure of the document.
+  
+- **Geolocation API**: Provides location information of the user's device.
+  
+- **Canvas API**: Allows drawing graphics using JavaScript.
+  
+- **XHR (XMLHttpRequest) API**: Enables making HTTP requests.
+
+**59. What is JavaScript Heap?**
+
+**JavaScript Heap** is a memory location where JavaScript stores references to objects or arrays for a certain period. It holds the data that is not immediately needed but may be used later.
+
+**60. What is JavaScript Stack?**
+
+**JavaScript Stack** is a memory location that keeps track of function calls and executes them in a Last In, First Out (LIFO) order. It's where the execution context and local variables are stored during function calls.
+
+**61. Differences between double equal (==) vs triple equal (===)?**
+
+i. **==** checks the value, and **===** checks both the value and the type. It's called type coercion.
+ii. **===** checks both the value and the type. **==** converts types if they are different.
+
+**62. What is Hoisting in JavaScript?**
+
+i. Variables declared with `var` are hoisted to the top of their scope.
+ii. Function declarations are fully hoisted, including the function body.
+iii. Hoisting means moving declarations to the top, but not the initializations.
+
+**63. Difference Between Primitive and Non-Primitive Data types in JavaScript?**
+
+i. **Primitive types** are simple data types like numbers, strings, and booleans.
+ii. **Non-primitive types** (objects) include arrays, functions, and objects. They are more complex and can hold multiple values.
+
+**64. What are Truthy and Falsy Values?**
+
+i. **Truthy values**: Values that are considered true in a boolean context, like `true`, non-empty strings, and numbers other than 0.
+ii. **Falsy values**: Values that are considered false, like `false`, `null`, `undefined`, 0, NaN, and empty strings.
+
+**65. Difference between null and undefined?**
+
+- **Null**: It is a value that represents the intentional absence of any object value.
+  
+- **Undefined**: It is a variable that has been declared but has not yet been assigned a value.
+
+**66. What is scope in JavaScript?**
+
+**Scope** refers to the context in which variables are declared and accessed. It determines the visibility and lifetime of variables.
+
+**67. Define Block scope and global scope?**
+
+- **Block Scope**: Variables declared within a block (inside curly braces) are only accessible within that block.
+  
+- **Global Scope**: Variables declared outside any function or block are accessible throughout the entire program.
+
+**68. How to use the JavaScript callback function?**
+
+A **callback function** is a function passed as an argument to another function, which is then invoked inside the outer function. It's often used for asynchronous operations.
+
+**69. Explain closure in JavaScript?**
+
+**Closure** is when a function "closes over" its surrounding state, capturing and remembering the values of the variables in its lexical scope even after the function has finished running.
+
+**70. Explain passed by value and passed by reference?**
+
+- **Passed by Value**: Primitive data types (like numbers and strings) are passed by value. Changes made inside a function do not affect the original value.
+
+- **Passed by Reference**: Objects (including arrays and functions) are passed by reference. Changes made inside a function affect the original object because the reference to the object is passed.
 
 </details> 
 
