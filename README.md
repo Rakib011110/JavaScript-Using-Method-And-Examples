@@ -166,7 +166,7 @@ Ans: JavaScript is a single- threaded and synchronus language. (কিন্ত�
 Ans: কোন object/ array এর refarence টাকে কিছু সময়ের জন্য stored করে রাখে। সেটাই হল Heeap| javaScript এ memory location Heap এ করে।
 60. what is javaScript stack?
 Ans: 
- ```	
+
 //module:  	(interview important)
 61. what are the differences between double equal (==) vs triple equal (===)?
 Ans:i. == check the value, and === check the value and type.  এটাকে type coercion বলে বা type conversion বলে।
@@ -182,7 +182,7 @@ ii. Hoisting is javaScript default behavior of moving all declarations to the to
 68. How to use the javaScript callback function?
 69. Explain closure in JavaScript?
 70. Explain passed by value and passed by reference?
-		
+ ```			
   -----------------------------------------------------------------
 **2. What is DOM?**
 DOM stands for Document Object Model. It's a programming interface for web documents. In simpler terms, it's a way for programs to interact with the structure, style, and content of HTML, XML, or XHTML documents. It represents the document as a tree of objects where each object corresponds to a part of the document.
