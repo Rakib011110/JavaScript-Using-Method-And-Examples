@@ -185,9 +185,11 @@ ii. Hoisting is javaScript default behavior of moving all declarations to the to
  ```			
   -----------------------------------------------------------------
 **2. What is DOM?**
+
 DOM stands for Document Object Model. It's a programming interface for web documents. In simpler terms, it's a way for programs to interact with the structure, style, and content of HTML, XML, or XHTML documents. It represents the document as a tree of objects where each object corresponds to a part of the document.
 
 **3. What are the different ways to get an element from DOM?**
+
 There are various ways to get an element from the DOM:
 - `getElementById`: Gets an element by its ID.
 - `getElementsByClassName`: Gets elements by their class name.
