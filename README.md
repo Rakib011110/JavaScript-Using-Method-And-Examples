@@ -53,13 +53,44 @@
 ## 
 
   
-<h2> Iterview Qestions</h2>  
+
 <details>
 <summary>
-  <h3>javascript Interview Questions (Click Me)</h3>
+<h2> ANS HERE</h2>  
 </summary>
 <br >
+   **2. What is DOM?**
+DOM stands for Document Object Model. It's a programming interface for web documents. In simpler terms, it's a way for programs to interact with the structure, style, and content of HTML, XML, or XHTML documents. It represents the document as a tree of objects where each object corresponds to a part of the document.
+
+**3. What are the different ways to get an element from DOM?**
+There are various ways to get an element from the DOM:
+- `getElementById`: Gets an element by its ID.
+- `getElementsByClassName`: Gets elements by their class name.
+- `getElementsByTagName`: Gets elements by their tag name.
+- `querySelector`: Gets the first element that matches a CSS selector.
+- `querySelectorAll`: Gets all elements that match a CSS selector.
+
+**4. What's the difference between an Event Handler and an Event Listener?**
+An event handler is a function that handles a specific type of event. It can be an attribute in HTML or a property in JavaScript. An event listener, on the other hand, is a more flexible way to handle events. It is set up using the `addEventListener` method in JavaScript and allows multiple functions to be executed for a particular event.
+
+**5. What does "event bubbling" mean in JavaScript?**
+Event bubbling is the process where the event starts from the target element and bubbles up through its ancestors in the DOM hierarchy. This means that if an event occurs on a nested element, it will also trigger event handlers on its parent elements, all the way up to the root of the document.
+
+**6. Can you explain the different types of events available in JavaScript?**
+There are various types of events in JavaScript, including:
+- Mouse events (e.g., click, mouseover)
+- Keyboard events (e.g., keydown, keyup)
+- Form events (e.g., submit, change)
+- Document/Window events (e.g., load, resize)
+- Focus events (e.g., focus, blur)
+
+**7. What's the difference between `event.preventDefault()` and `event.stopPropagation()`?**
+- `event.preventDefault()`: This method is used to prevent the default action of an event. For example, preventing a form from submitting or a link from navigating to a new page.
   
+- `event.stopPropagation()`: This method stops the event from propagating or "bubbling" up or down the DOM hierarchy. It prevents the event from triggering event listeners on parent or child elements.
+
+<details/>
+
  ```css
 //Basic knowledge
 1. how does internet work?
@@ -74,6 +105,13 @@
 5. what does "event bubbling" mean in JavaScript?
 6. Can you explain the different types of events available in javaScript?
 7. what's the difference bettween event.preventDefault() and event.stopPropagation()?
+ 
+<h2> ANS CLICK</h2>  
+<details>
+<summary>
+  <h>javascript Interview Questions (Click Me)</p>
+</summary>
+
 
 //module:  
 8. what's the diffrence between map,foreach, filter?
