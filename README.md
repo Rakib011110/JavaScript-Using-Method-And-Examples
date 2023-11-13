@@ -199,9 +199,11 @@ There are various ways to get an element from the DOM:
 An event handler is a function that handles a specific type of event. It can be an attribute in HTML or a property in JavaScript. An event listener, on the other hand, is a more flexible way to handle events. It is set up using the `addEventListener` method in JavaScript and allows multiple functions to be executed for a particular event.
 
 **5. What does "event bubbling" mean in JavaScript?**
-Event bubbling is the process where the event starts from the target element and bubbles up through its ancestors in the DOM hierarchy. This means that if an event occurs on a nested element, it will also trigger event handlers on its parent elements, all the way up to the root of the document.
+ 
+ Event bubbling is the process where the event starts from the target element and bubbles up through its ancestors in the DOM hierarchy. This means that if an event occurs on a nested element, it will also trigger event handlers on its parent elements, all the way up to the root of the document.
 
 **6. Can you explain the different types of events available in JavaScript?**
+
 There are various types of events in JavaScript, including:
 - Mouse events (e.g., click, mouseover)
 - Keyboard events (e.g., keydown, keyup)
@@ -210,6 +212,7 @@ There are various types of events in JavaScript, including:
 - Focus events (e.g., focus, blur)
 
 **7. What's the difference between `event.preventDefault()` and `event.stopPropagation()`?**
+
 - `event.preventDefault()`: This method is used to prevent the default action of an event. For example, preventing a form from submitting or a link from navigating to a new page.
   
 - `event.stopPropagation()`: This method stops the event from propagating or "bubbling" up or down the DOM hierarchy. It prevents the event from triggering event listeners on parent or child elements. 
@@ -218,6 +221,7 @@ There are various types of events in JavaScript, including:
 
 -------------------------------
 **8. What's the difference between map, forEach, filter?**
+
 - `map`: It creates a new array by applying a function to each element of the original array. It doesn't change the original array.
   
 - `forEach`: It executes a provided function once for each array element. It's used for its side effects and doesn't create a new array.
@@ -225,6 +229,7 @@ There are various types of events in JavaScript, including:
 - `filter`: It creates a new array with only the elements that pass a certain condition, based on a provided function.
 
 **9. What's the difference between filter & find?**
+
 - `filter`: It returns a new array with all elements that satisfy a provided condition.
   
 - `find`: It returns the first element in the array that satisfies a provided condition. It returns a single element, not an array.
@@ -235,27 +240,32 @@ There are various types of events in JavaScript, including:
 - `for...in`: Used to iterate over the enumerable properties of an object (including inherited ones), providing the property names.
 
 **11. How do you empty an array?**
+
 You can empty an array by setting its length to 0:
 ```javascript
 myArray.length = 0;
 ```
 
 **12. Difference between class and object?**
+
 - `Class`: It is a blueprint or a template for creating objects. It defines properties and methods that an object created from the class will have.
 
 - `Object`: An instance of a class. It's a concrete entity created from a class and represents a real-world thing. Objects have properties and methods defined by their class. 
 --------------------------------------- 
 **13. What is an API?**
+
 i. **API** stands for Application Programming Interface.
 ii. An **API** acts like a link that allows two applications to talk to each other.
 iii. **API** is the part of the server that receives requests and sends responses.
 
 **14. GET Vs POST?**
+
 - **GET**: Used to request data from a specified resource. Data is sent in the URL, and there are restrictions on the amount of data that can be sent.
 
 - **POST**: Used to submit data to be processed to a specified resource. Data is sent in the request body, allowing for larger amounts of data.
 
 **15. What are the HTTP methods supported by REST?**
+
 Common HTTP methods used in REST are:
 - GET: Retrieve data from a resource.
 - POST: Create a new resource.
@@ -264,12 +274,15 @@ Common HTTP methods used in REST are:
 - PATCH: Update a resource partially.
 
 **16. Can you use GET request instead of PUT to create a resource?**
+
 No, it's not recommended. The standard practice is to use **POST** to create a resource and **PUT** to update a resource. **GET** is generally used for retrieving data.
 
 **17. What is JSON?**
+
 **JSON** stands for JavaScript Object Notation. It's a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate. It's often used to transmit data between a server and a web application, as an alternative to XML.
 
 **18. What are CRUD operations?**
+
 **CRUD** stands for Create, Read, Update, and Delete. These are the basic operations that can be performed on data. 
 - **Create**: Add new data.
 - **Read**: Retrieve data.
