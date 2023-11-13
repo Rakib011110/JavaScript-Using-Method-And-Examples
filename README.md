@@ -50,8 +50,16 @@
 - [CLICK ME FOR ALL MODULE QUESTIONS & ANS](https://github.com/Rakib011110/javaScript-documents) 
 
 
-##  ALL INTERVIEW QUESTIONS 
- ```css
+<details/>
+
+
+<summary>
+##  ALL INTERVIEW QUESTIONS  
+</summary>
+ ```css 
+
+
+
 //Basic knowledge
 1. how does internet work?
 
