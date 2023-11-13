@@ -203,7 +203,9 @@ There are various ways to get an element from the DOM:
 An event handler is a function that handles a specific type of event. It can be an attribute in HTML or a property in JavaScript. An event listener, on the other hand, is a more flexible way to handle events. It is set up using the `addEventListener` method in JavaScript and allows multiple functions to be executed for a particular event.
 
 **5. What does "event bubbling" mean in JavaScript?**
- 
+ Event bubbling in JavaScript is like a ripple effect in water. When something happens (like a click) on an element, the effect bubbles up through its parent elements in the HTML structure. So, if you click on a button inside a div, the click event is noticed not just by the button but also by the div and any other ancestor elements all the way up to the document level. 
+
+
  Event bubbling is the process where the event starts from the target element and bubbles up through its ancestors in the DOM hierarchy. This means that if an event occurs on a nested element, it will also trigger event handlers on its parent elements, all the way up to the root of the document.
 
 **6. Can you explain the different types of events available in JavaScript?**
