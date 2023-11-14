@@ -535,7 +535,7 @@ A **callback function** is a function passed as an argument to another function,
       <tr>
         <th>1.18</th>
         <td>JSON.stringify()</td>
-        <td>javaScript এর কোন একটি  object/array/value কে string a convert করার জন্য JSON.stringify() দিতে হবে (return String);</td>
+        <td>JavaScript এর `JSON.stringify()` মেথড ব্যবহার করে কোন অবজেক্ট, অ্যারে, বা মানকে JSON স্ট্রিং এ রূপান্তর করা যায়। এই মেথডটি একটি অবজেক্টের ডাটা স্ট্রাকচার কে JSON ফরম্যাটে রূপান্তর করে এবং সেই স্ট্রিংকে রিটার্ন করে।</td>
       </tr>
       <!-- row 1.19 -->
       <tr>
