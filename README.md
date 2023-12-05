@@ -799,12 +799,7 @@ A **callback function** is a function passed as an argument to another function,
         <td>get cookie value in key-value pair </td>
         <td>  document.cookie.split('; ').map(c => console.log(c))</td>
       </tr>
-	 <!-- row 24-->
-      <tr>
-        <th>24</th>
-        <td> </td>
-        <td>  </td>
-      </tr>
+
 	<!-- row 24-->
       <tr>
         <th>24</th>
